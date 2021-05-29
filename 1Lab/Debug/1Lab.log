@@ -8,6 +8,9 @@
   Out_Container.cpp
   Airplane_In_Data.cpp
   Airplane_Out_Data.cpp
+  Out_Only_Airplane.cpp
+  Out_Only_Airplane_Container.cpp
+  Out_Only_Airplane_Transport.cpp
   Train_In_Data.cpp
   Train_Out_Data.cpp
   Создание кода...
