@@ -10,6 +10,7 @@ class Airplane : public Transport {
 public:
     void In_Data(ifstream& ifst); //Функция ввода информации о самолете
     void Out_Data(int Speed, int Distance, ofstream& ofst); //Функция вывода информации о самолете
+    double Transport_Travel_time(int Speed, int Distance); //Функция подсчета времени транспорта в пути
     Airplane() {};
 };
 

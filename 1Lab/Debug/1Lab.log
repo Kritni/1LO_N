@@ -1,4 +1,5 @@
 ﻿  1Lab.cpp
+  Airplane_Travel_time.cpp
   Clear_Container.cpp
   Get_Distance.cpp
   Get_Speed.cpp
@@ -10,5 +11,7 @@
   Airplane_Out_Data.cpp
   Train_In_Data.cpp
   Train_Out_Data.cpp
+  Train_Travel_time.cpp
   Создание кода...
+  LINK : не найден или не выполнена сборка D:\Another\Учеба 3 курс 2 семестр\Методы проги\New Labs\1Lab\1LabOOP\Debug\1Lab.exe при последней инкрементной компоновке; выполняется полная компоновка
   1Lab.vcxproj -> D:\Another\Учеба 3 курс 2 семестр\Методы проги\New Labs\1Lab\1LabOOP\Debug\1Lab.exe
