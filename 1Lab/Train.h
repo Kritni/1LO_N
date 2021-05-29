@@ -9,6 +9,7 @@ class Train : public Transport {
 public:
     void In_Data(ifstream& ifst); //Функция ввода информации о поезде
     void Out_Data(int Speed, int Distance, ofstream& ofst); //Функция вывода информации о поезде
+    double Transport_Travel_time(int Speed, int Distance); //Функция подсчета времени транспорта в пути
     Train() {};
 };
 
