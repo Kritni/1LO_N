@@ -149,11 +149,14 @@
     <ClCompile Include="Out_Container.cpp" />
     <ClCompile Include="Airplane_In_Data.cpp" />
     <ClCompile Include="Airplane_Out_Data.cpp" />
+    <ClCompile Include="Ship_In_Data.cpp" />
+    <ClCompile Include="Ship_Out_Data.cpp" />
     <ClCompile Include="Train_In_Data.cpp" />
     <ClCompile Include="Train_Out_Data.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Container.h" />
+    <ClInclude Include="Ship.h" />
     <ClInclude Include="Transport.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="Airplane.h" />
