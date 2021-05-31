@@ -6,22 +6,22 @@
 using namespace std;
 
 class Transport {
-    int Speed; //Скорость
-    int Distance; //Расстояние м/у пунктами отправления и назначения
+	int Speed; //Скорость
+	int Distance; //Расстояние м/у пунктами отправления и назначения
 public:
-    int Get_Speed(); //Функция получения значения скорости транспорта
-    int Get_Distance(); //Функция получения значения расстояния м/у пунктами отправления и назачения
+	int Get_Speed(); //Функция получения значения скорости транспорта
+	int Get_Distance(); //Функция получения значения расстояния м/у пунктами отправления и назачения
 
-    static Transport* In(ifstream& ifst); //Функция ввода информации о транспорте
-    virtual void In_Data(ifstream& ifst) = 0; //Чисто вирутальная функция ввода информации
-                                              //о транспорте, она будет определена для
-                                              //каждого класса конкретного транспорта
-    virtual void Out_Data(int Speed, int Distance, ofstream& ofst) = 0; //Чисто вирутальная функция вывода информации
-                                              //о траспорте, она будет определена для
-                                              //каждого класса конкретного траспорта
-    virtual double Transport_Travel_time(int Speed, int Distance) = 0; //Функция подсчета времени транспорта в пути
+	static Transport* In(ifstream& ifst); //Функция ввода информации о транспорте
+	virtual void In_Data(ifstream& ifst) = 0; //Чисто вирутальная функция ввода информации
+											  //о транспорте, она будет определена для
+											  //каждого класса конкретного транспорта
+	virtual void Out_Data(int Speed, int Distance, ofstream& ofst) = 0; //Чисто вирутальная функция вывода информации
+											  //о траспорте, она будет определена для
+											  //каждого класса конкретного траспорта
+	double Transport_Travel_time(int Speed, int Distance); //Функция подсчета времени транспорта в пути
 protected:
-    Transport() {};
+	Transport() {};
 };
 
 #endif // TRANSPORT_H

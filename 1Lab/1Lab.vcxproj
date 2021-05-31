@@ -140,7 +140,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1Lab.cpp" />
-    <ClCompile Include="Airplane_Travel_time.cpp" />
     <ClCompile Include="Clear_Container.cpp" />
     <ClCompile Include="Get_Distance.cpp" />
     <ClCompile Include="Get_Speed.cpp" />
@@ -152,7 +151,7 @@
     <ClCompile Include="Airplane_Out_Data.cpp" />
     <ClCompile Include="Train_In_Data.cpp" />
     <ClCompile Include="Train_Out_Data.cpp" />
-    <ClCompile Include="Train_Travel_time.cpp" />
+    <ClCompile Include="Travel_time.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Container.h" />

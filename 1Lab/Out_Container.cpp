@@ -1,20 +1,20 @@
 #include "Container.h"
 
 void Container::Out(ofstream& ofst) {
-    ofst << "Container contains " << Len
-        << " elements." << endl << endl;
+	ofst << "Container contains " << Len
+		<< " elements." << endl << endl;
 
-    Node* Temp = Head;
+	Node* Temp = Head;
 
-    for (int i = 0; i < Len; i++) {
-        ofst << i << ": ";
-        Temp->Cont->Out_Data(Temp->Cont->Get_Speed(), Temp->Cont->Get_Distance(), ofst);
+	for (int i = 0; i < Len; i++) {
+		ofst << i << ": ";
+		Temp->Cont->Out_Data(Temp->Cont->Get_Speed(), Temp->Cont->Get_Distance(), ofst);
 
-        ofst << "Travel time of transport = " <<
-            Temp->Cont->Transport_Travel_time(Temp->Cont->Get_Speed(), Temp->Cont->Get_Distance()) << endl << endl;
+		ofst << "Travel time of transport = " <<
+			Temp->Cont->Transport_Travel_time(Temp->Cont->Get_Speed(), Temp->Cont->Get_Distance()) << endl << endl;
 
-        if (Temp->Next) {
-            Temp = Temp->Next;
-        }
-    }
+		if (Temp->Next) {
+			Temp = Temp->Next;
+		}
+	}
 }
