@@ -51,7 +51,13 @@
     <ClCompile Include="Get_Distance.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
-    <ClCompile Include="Get_Cargo_weight.cpp">
+    <ClCompile Include="Out_Only_Airplane.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="Out_Only_Airplane_Container.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="Out_Only_Airplane_Transport.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
   </ItemGroup>

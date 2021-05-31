@@ -21,6 +21,7 @@ public:
     virtual void Out_Data(int Speed, int Distance, double Cargo_weight, ofstream& ofst) = 0; //Чисто вирутальная функция вывода информации
                                               //о траспорте, она будет определена для
                                               //каждого класса конкретного траспорта
+    virtual void Out_Only_Airplane(int Speed, int Distance, ofstream& ofst); //Функция вывода только самолетов
 protected:
     Transport() {};
 };
