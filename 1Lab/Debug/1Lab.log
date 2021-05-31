@@ -1,5 +1,6 @@
 ﻿  1Lab.cpp
   Clear_Container.cpp
+  Get_Cargo_weight.cpp
   Get_Distance.cpp
   Get_Speed.cpp
   Init_Container.cpp
