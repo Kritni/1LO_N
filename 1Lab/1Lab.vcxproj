@@ -140,27 +140,34 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1Lab.cpp" />
+    <ClCompile Include="Airplane_In_Data.cpp" />
+    <ClCompile Include="Airplane_Out_Data.cpp" />
     <ClCompile Include="Clear_Container.cpp" />
+    <ClCompile Include="Compare.cpp" />
+    <ClCompile Include="Get_Cargo_weight.cpp" />
     <ClCompile Include="Get_Distance.cpp" />
     <ClCompile Include="Get_Speed.cpp" />
     <ClCompile Include="Init_Container.cpp" />
     <ClCompile Include="In_Container.cpp" />
     <ClCompile Include="In_Transport.cpp" />
     <ClCompile Include="Out_Container.cpp" />
-    <ClCompile Include="Airplane_In_Data.cpp" />
-    <ClCompile Include="Airplane_Out_Data.cpp" />
     <ClCompile Include="Out_Only_Airplane.cpp" />
     <ClCompile Include="Out_Only_Airplane_Container.cpp" />
     <ClCompile Include="Out_Only_Airplane_Transport.cpp" />
+    <ClCompile Include="Ship_In_Data.cpp" />
+    <ClCompile Include="Ship_Out_Data.cpp" />
+    <ClCompile Include="Sort.cpp" />
     <ClCompile Include="Train_In_Data.cpp" />
     <ClCompile Include="Train_Out_Data.cpp" />
+    <ClCompile Include="Transport_Travel_time.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Container.h" />
-    <ClInclude Include="Transport.h" />
-    <ClInclude Include="Node.h" />
     <ClInclude Include="Airplane.h" />
+    <ClInclude Include="Container.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="Ship.h" />
     <ClInclude Include="Train.h" />
+    <ClInclude Include="Transport.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,17 +1,2 @@
 ﻿  1Lab.cpp
-  Clear_Container.cpp
-  Get_Distance.cpp
-  Get_Speed.cpp
-  Init_Container.cpp
-  In_Container.cpp
-  In_Transport.cpp
-  Out_Container.cpp
-  Airplane_In_Data.cpp
-  Airplane_Out_Data.cpp
-  Out_Only_Airplane.cpp
-  Out_Only_Airplane_Container.cpp
-  Out_Only_Airplane_Transport.cpp
-  Train_In_Data.cpp
-  Train_Out_Data.cpp
-  Создание кода...
   1Lab.vcxproj -> D:\Another\Учеба 3 курс 2 семестр\Методы проги\New Labs\1Lab\1LabOOP\Debug\1Lab.exe

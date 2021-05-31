@@ -8,7 +8,7 @@ Transport* Transport::In(ifstream& ifst) {
     int K;
 
     ifst >> K;
-
+    
     if (K == 1) {
         T = new Airplane;
     }

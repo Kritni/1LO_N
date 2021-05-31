@@ -9,8 +9,8 @@ class Airplane : public Transport {
     int Load_capacity; //Грузоподъемность
 public:
     void In_Data(ifstream& ifst); //Функция ввода информации о самолете
-    void Out_Data(int Speed, int Distance, ofstream& ofst); //Функция вывода информации о самолете
-    void Out_Only_Airplane(int Speed, int Distance, ofstream& ofst); //Функция вывода только самолетов
+    void Out_Data(int Speed, int Distance, double Cargo_weight, ofstream& ofst); //Функция вывода информации о самолете
+    void Out_Only_Airplane(int Speed, int Distance, double Cargo_weight, ofstream& ofst); //Функция вывода только самолетов
     Airplane() {};
 };
 

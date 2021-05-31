@@ -19,7 +19,11 @@ int main(int argc, char* argv[]) {
 
     C.In(ifst); //Ввод элементов контейнера
 
-    ofst << "Filled container. " << endl;
+    C.Out(ofst); //Вывод контейнера
+
+    C.Sort(); //Сортировка контейнера
+
+    ofst << "Filled and sorted container. " << endl;
 
     C.Out(ofst); //Вывод контейнера
 
