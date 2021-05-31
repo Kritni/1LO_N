@@ -51,12 +51,6 @@
     <ClCompile Include="Get_Distance.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
-    <ClCompile Include="Compare.cpp">
-      <Filter>Файлы ресурсов</Filter>
-    </ClCompile>
-    <ClCompile Include="Sort.cpp">
-      <Filter>Файлы ресурсов</Filter>
-    </ClCompile>
     <ClCompile Include="Travel_time.cpp">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>

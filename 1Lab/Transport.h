@@ -20,7 +20,6 @@ public:
 											  //о траспорте, она будет определена для
 											  //каждого класса конкретного траспорта
 	double Transport_Travel_time(int Speed, int Distance); //Функция подсчета времени транспорта в пути
-	bool Compare(Transport& Other); //Функция сравнения времен прохождения пути 
 protected:
 	Transport() {};
 };
